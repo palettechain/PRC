@@ -13,7 +13,7 @@ A standard interface allows any tokens on Ethereum to be re-used by other applic
 #### Methods
 
 ##### name 
-Returns the name of the token - e.g. "MyToken".
+Returns the name of the token - e.g. "Palette Token".
 
 OPTIONAL - This method can be used to improve usability, but interfaces and other contracts MUST NOT expect these values to be present.
 
@@ -22,7 +22,7 @@ function name() public view returns (string)
 ```
 
 ##### symbol 
-Returns the symbol of the token. E.g. “HIX”.
+Returns the symbol of the token. E.g. “PLT”.
 
 OPTIONAL - This method can be used to improve usability, but interfaces and other contracts MUST NOT expect these values to be present.
 ```dtd
@@ -30,7 +30,7 @@ function symbol() public view returns (string)
 ```
 
 ##### decimals
-Returns the number of decimals the token uses - e.g. 8, means to divide the token amount by 100000000 to get its user representation.
+Returns the number of decimals the token uses - e.g. 18, means to divide the token amount by 1000000000000000000 to get its user representation.
 
 OPTIONAL - This method can be used to improve usability, but interfaces and other contracts MUST NOT expect these values to be present.
 
